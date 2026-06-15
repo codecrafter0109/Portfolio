@@ -1,4 +1,4 @@
-import { ArrowRight, GithubIcon, LinkedInIcon, MailIcon } from "./Icons";
+import { ArrowRight, LinkedInIcon, MailIcon } from "./Icons";
 
 export default function Hero() {
   return (
@@ -44,15 +44,6 @@ export default function Hero() {
           </div>
 
           <div className="flex items-center gap-5 text-muted">
-            <a
-              href="https://github.com/codecrafter0109"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="GitHub"
-              className="hover:text-accent transition-colors"
-            >
-              <GithubIcon />
-            </a>
             <a
               href="https://uk.linkedin.com/in/oisin-o-aba110248/"
               target="_blank"

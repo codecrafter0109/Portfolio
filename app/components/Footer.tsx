@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { LinkedInIcon, GithubIcon, MailIcon } from "./Icons";
+import { LinkedInIcon, MailIcon } from "./Icons";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -64,15 +64,6 @@ export default function Footer() {
             className="hover:text-accent transition-colors"
           >
             <LinkedInIcon />
-          </a>
-          <a
-            href="https://github.com/codecrafter0109"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="GitHub"
-            className="hover:text-accent transition-colors"
-          >
-            <GithubIcon />
           </a>
         </div>
       </div>

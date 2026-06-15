@@ -1,11 +1,10 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { MailIcon, LinkedInIcon, GithubIcon, ArrowRight } from "./Icons";
+import { MailIcon, LinkedInIcon, ArrowRight } from "./Icons";
 
 const EMAIL = "oisin3264@gmail.com";
 const LINKEDIN = "https://uk.linkedin.com/in/oisin-o-aba110248/";
-const GITHUB = "https://github.com/codecrafter0109";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -60,20 +59,6 @@ export default function Contact() {
             <div>
               <p className="text-xs text-muted">LinkedIn</p>
               <p className="text-sm text-white">linkedin.com/in/oisin-o-aba110248</p>
-            </div>
-          </a>
-          <a
-            href={GITHUB}
-            target="_blank"
-            rel="noreferrer"
-            className="surface-card flex items-center gap-3 px-5 py-4"
-          >
-            <span className="flex items-center justify-center w-9 h-9 rounded-md bg-accent-dim text-accent">
-              <GithubIcon />
-            </span>
-            <div>
-              <p className="text-xs text-muted">GitHub</p>
-              <p className="text-sm text-white">github.com/codecrafter0109</p>
             </div>
           </a>
         </div>
